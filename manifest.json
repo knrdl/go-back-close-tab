@@ -1,0 +1,25 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "description": "Close tab on go back (with Alt+Left) if history is empty.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "Go Back Close Tab",
+  "permissions": [
+    "activeTab"
+  ],
+  "version": "1.0",
+  "commands": {
+    "history-go-back": {
+      "suggested_key": {
+        "default": "Alt+Left"
+      },
+      "description": "Close tab if user wants to go back and history is empty"
+    }
+  }
+}
